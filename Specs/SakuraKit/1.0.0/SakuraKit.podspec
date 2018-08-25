@@ -10,4 +10,5 @@ Pod::Spec.new do |s|
   s.source_files  = 'SakuraKit/**/*.{h,m}'
   s.requires_arc = true
   s.dependency "SSZipArchive"
+  s.frameworks = 'SSZipArchive'
 end
